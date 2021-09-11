@@ -11,11 +11,11 @@
 </head>
 <body>
   <form action="mail_handler.php" method="post">  
-    First Name: <input type="text" name="first_name"><br>
-    Last Name: <input type="text" name="last_name"><br>
-    Email: <input type="text" name="emailaddress"><br>
+    First Name: <input type="text" name="first_name"><br><br><br>
+    Last Name: <input type="text" name="last_name"><br><br><br>
+    Email: <input type="text" name="emailaddress"><br><br><br>
     
-    Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+    Message:<br><textarea rows="5" name="message" cols="30"></textarea><br><br><br>
     <input type="submit" name="submit" value="Submit">
     </form>
 </body>
