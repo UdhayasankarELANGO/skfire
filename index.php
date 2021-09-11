@@ -1,67 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SK Fire Safety Equipment & Co</title>
-<style>
-body {margin: 0;}
-
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color: #04AA6D;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
-</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="sk2.ico"/> -->
+  <link rel="shortcut icon" href="sk.ico"/>
+  <title>Contact Form with Gmail</title>
+  
 </head>
 <body>
-
-<ul class="topnav">
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li class="right"><a href="#about">About</a></li>
-</ul>
-
-<div style="padding:0 16px;">
-  <h2>Responsive Topnav Example</h2>
-  <p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-  <h4>Resize the browser window to see the effect.</h4>
-</div>
-<div style="padding:0 16px;">
-  <h2>Responsive Topnav Example</h2>
-  <p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-  <h4>Resize the browser window to see the effect.</h4>
-</div>
-<div style="padding:0 16px;">
-  <h2>Responsive Topnav Example</h2>
-  <p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
-  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-  <h4>Resize the browser window to see the effect.</h4>
-</div>
+  <form action="mail_handler.php" method="post">
+    First Name: <input type="text" name="first_name"><br>
+    Last Name: <input type="text" name="last_name"><br>
+    Email: <input type="text" name="email"><br>
+    
+    Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+    <input type="submit" name="submit" value="Submit">
+    </form>
 </body>
 </html>
